@@ -1,0 +1,92 @@
+.Form {
+  max-width: 40rem;
+  .row {
+    display: flex;
+    gap: 1rem;
+    & > div {
+      flex: 1;
+      input {
+        width: 100%;
+        margin: 0.5rem 0;
+        border: 1px solid #0d348d;
+        border-radius: 5px;
+        padding: 0.5rem 0.5rem;
+      }
+      label {
+        color: #0d348d;
+        font-weight: 600;
+        display: block;
+      }
+    }
+  }
+  .Industries {
+    label[for="Industry"] {
+      margin: 0.5rem 0;
+      color: #0d348d;
+      font-weight: 600;
+      display: block;
+    }
+    & > div {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+
+      input[type="radio"] {
+
+        vertical-align: middle;
+        margin-right: 0.5rem;
+        transition: 0.3s ease all;
+        /* remove standard background appearance */
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        /* create custom radiobutton appearance */
+        display: inline-block;
+        width: 1.75rem;
+        height: 1.75rem;
+        padding: 0.3rem;
+        /* background-color only for content */
+        background-clip: content-box;
+        border: 2px solid #bbbbbb;
+        background-color: #e7e6e7;
+        border-radius: 50%;
+      }
+
+      /* appearance for checked radiobutton */
+      input[type="radio"]:checked {       
+
+        border: 2px solid #0d348d;
+        background-color: #0d348d;
+      }
+    }
+  }
+  .About {
+    margin-top: 1rem;
+    label {
+      font-weight: 600;
+      color: #0d348d;
+    }
+
+    textarea {
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+      font-size: 1rem;
+      font-family: inherit;
+      max-width: 100%;
+      width: 100%;
+      border: 1px solid #0d348d;
+      border-radius: 5px;
+    }
+  }
+  button {
+    margin: 1rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    background: #0d348d;
+  }
+}

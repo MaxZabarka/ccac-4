@@ -1,0 +1,45 @@
+.Navbar {
+    z-index: 10;
+  background: white;
+  border-bottom: #0d348d 1px solid;
+  box-shadow: 0px 1px 29px 3px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    margin-right: 2rem;
+    width: 2.5rem;
+    filter: invert(14%) sepia(63%) saturate(2387%) hue-rotate(211deg)
+      brightness(116%) contrast(107%);
+
+    @media (max-width: 600px) {
+      display: block;
+    }
+  }
+
+  ul {
+    @media (max-width: 600px) {
+      display: none;
+    }
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;
+    li {
+      a {
+        padding: 1rem 1rem;
+        text-decoration: none;
+        color: #0d348d;
+        font-weight: 500;
+        transition: 0.3s ease color;
+        &:hover {
+          color: #27bde8;
+        }
+      }
+    }
+  }
+}
