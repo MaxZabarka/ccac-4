@@ -17,11 +17,10 @@ const Content = () => {
         <div className="card box-shadow">
           <h2>Who we are</h2>
           <p>
-            We are a group of professionals with extensive professional
-            experience and a wide network of connections in all levels of
-            government and professional organizations, large and small
-            businesses and individuals both in Canada and Central Asian
-            Countries.
+            We are a group of professionals with extensive expertise and a wide
+            network of connections encompassing all levels of government,
+            business organizations and individuals within Canada and Central
+            Asian Countries.
           </p>
         </div>
         <div className="card box-shadow">
@@ -32,10 +31,10 @@ const Content = () => {
           </p>
         </div>
         <div className="card box-shadow">
-          <h2>Our vision</h2>
+          <h2>Our Vision</h2>
           <p>
-            Our vision is to become a knowledge database and communication hub
-            for all interested parties.
+            Become a recognized communication hub and knowledge database for all
+            interested parties.
           </p>
         </div>
         <div className="card box-shadow">
@@ -81,9 +80,9 @@ const Content = () => {
         <div className="card-main">
           <h1>Services and Industries</h1>
           <p>
-            Whether you are Canadian or Central Asian corporation, partnership
-            or other business organization, a public association, trust, or
-            foundation, we will help you develop business opportunities and
+            Whether you are a Canadian or Central Asian corporation,
+            partnership, public association, trust, foundation or other business
+            organization, we will help you develop business opportunities and
             achieve your goals by providing a tailored approach to your entry
             strategy, business intelligence and SME support throughout the life
             of your project.
